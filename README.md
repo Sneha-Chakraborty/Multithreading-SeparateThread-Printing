@@ -24,6 +24,6 @@ To print anything from a separate thread, we actually first have to focus on the
 5. Create the object of the Thread class same there and pass the custom class's object inside that of Thread's.
 6. Finally, write thread.start(); to spawn a new thread and execute the task desired in that separate thread.
 
-#### This is how we execute tasks from a separate/different thread!!!!
+### This is how we execute tasks from a separate/different thread!!!!
 
 ---------------------------------------------------------------------------------------------------------------
