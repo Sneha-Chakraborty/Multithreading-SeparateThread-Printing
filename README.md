@@ -1,7 +1,7 @@
 # Multithreading-HelloWorldprinter
 Print Hello World! from separate thread other main thread. A concept of Multi-threading and Concurrency.
 
-##Threads
+##Thread(s)
 Threads are like workers that help in executing and carrying out processes/tasks in the cores of CPUs.
 The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.
 
@@ -14,7 +14,7 @@ Concurrency is the ability of a single-core processor to context-switch between 
 Parallelism is the ability of a multi-core processor to context-switch between processes in every core
 (brain/unit of execution) and henceforth carry out multiple tasks simultaneously.
 
-##What actually happens?
+##What actually happens and what to do?
 In main() method,  main thread executes all instructions.
 To print anything from a separate thread, we actually first have to focus on the task we want to do.
 1. Create a separate class for the task.
@@ -25,3 +25,5 @@ To print anything from a separate thread, we actually first have to focus on the
 6. Finally, write thread.start(); to spawn a new thread and execute the task desired in that separate thread.
 
 This is how we execute tasks from a separate/different thread.
+
+---------------------------------------------------------------------------------------------------------------
